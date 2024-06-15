@@ -1,0 +1,10 @@
+@url = http://localhost:8070
+
+# get details from eureka about registered services
+GET {{url}}/eureka/apps
+Accept: application/json
+###
+# get details from eureka about specific registered services
+GET {{url}}/eureka/apps/accounts
+Accept: application/json
+
